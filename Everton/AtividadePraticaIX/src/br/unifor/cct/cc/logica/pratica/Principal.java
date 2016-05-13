@@ -24,6 +24,8 @@ public class Principal {
 			case 2:
 				verificarCandidato(numeroInscricao, candidatos);
 				break;
+			case 3:
+				System.out.println(Explicaçao());
 			default:
 				break;
 			}
@@ -153,7 +155,11 @@ public class Principal {
 	}
 	
 	// Questão 06 - Pedro Henrique / Daniel Dantas
-	// TODO 
+	static String Explicaçao(){
+		String a=" A primeira fase é a inscrição: É necessário que o aluno informe seus dados."
+				+" A segunda fase é a dinâmica em grupo: Conhecer os outros alunos que estão inscritos."			
+				+" A terceira fase é a entrevista individual: Cada aluno será entrevistado";
+		return a;
 	
 	
 	// Questão 07 - Nicolas / Max
